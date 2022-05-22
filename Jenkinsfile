@@ -1,9 +1,9 @@
-def mainDir="Chapter02/2-jenkins-docker"
+def mainDir=""
 def ecrLoginHelper="docker-credential-ecr-login"
-def region="<AWS Region>"
-def ecrUrl="<AWS ECR URL>"
-def repository="<Image Repository Name>"
-def deployHost="<Deploy VM Private IP>"
+def region="us-east-1"
+def ecrUrl="233194685050.dkr.ecr.us-east-1.amazonaws.com/test"
+def repository="test"
+def deployHost="172.31.12.14"
 
 pipeline {
     agent any
